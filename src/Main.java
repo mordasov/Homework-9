@@ -62,7 +62,7 @@ public class Main {
         for (int element : array) {
             sum += element;
         }
-        double avgForMonth = (double) sum / 5;
+        double avgForMonth = (double) sum / array.length;
         System.out.printf("Средняя сумма трат за месяц составила %.2f рублей.\n\n", avgForMonth);
 
         //task-4
